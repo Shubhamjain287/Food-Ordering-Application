@@ -1,0 +1,44 @@
+.nav{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-img{
+    width: 250px;
+}
+
+.shimmer{
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: gray;
+    margin: 10px;
+}
+.shimmer-card{
+    padding: 10px;
+}

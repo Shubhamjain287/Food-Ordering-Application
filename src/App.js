@@ -1,10 +1,12 @@
 import Header from "./components/Header";
+import Home from "./components/Home"
+import "../src/index.css";
 
 const App = () => {
     return (
         <>
-            <h1> Hello Swiggy </h1>
-            <Header shubham="shubham" jain="jain" />
+            <Header />
+            <Home />
         </>
     )
 } 

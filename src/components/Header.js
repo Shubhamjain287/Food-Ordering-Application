@@ -1,7 +1,18 @@
 const Header = (props) => {
-    console.log(props);
     return (
-        <h1> Header {props.shubham} {props.jain} </h1>
+        <nav className="nav">
+            <div className="header">
+                <div>
+                    <a href="/"> Food Villa </a>
+                </div>
+            <ul className="list">
+                <a href="/home"><li> Home </li></a>
+                <a href="/about"><li> About </li></a>
+                <a href="/contact"><li> Contact </li></a>
+            </ul>
+            <button > Login </button>
+            </div>
+        </nav>
     )
 }
 
