@@ -15,6 +15,9 @@
     justify-content: space-around;
     margin: 5px;
 }
+.header .list a{
+    margin-left: 20px;
+}
 
 .container{
     display: flex;

@@ -1,3 +1,5 @@
+
+
 const Header = (props) => {
     return (
         <nav className="nav">
@@ -6,7 +8,7 @@ const Header = (props) => {
                     <a href="/"> Food Villa </a>
                 </div>
             <ul className="list">
-                <a href="/home"><li> Home </li></a>
+                <a href="/"><li> Home </li></a>
                 <a href="/about"><li> About </li></a>
                 <a href="/contact"><li> Contact </li></a>
             </ul>
@@ -15,5 +17,7 @@ const Header = (props) => {
         </nav>
     )
 }
+
+
 
 export default Header;
