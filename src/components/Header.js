@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
     return (
@@ -8,9 +8,9 @@ const Header = (props) => {
                     <a href="/"> Food Villa </a>
                 </div>
             <ul className="list">
-                <a href="/"><li> Home </li></a>
-                <a href="/about"><li> About </li></a>
-                <a href="/contact"><li> Contact </li></a>
+                <Link to="/"><li> Home </li></Link>
+                <Link to="/about"><li> About </li></Link>
+                <Link to="/contact"><li> Contact </li></Link>
             </ul>
             <button > Login </button>
             </div>
