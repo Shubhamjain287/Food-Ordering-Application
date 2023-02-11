@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Shimmer from "./components/Shimmer";
 
+// lazy Loading
 const About = lazy( () => import("./components/About"));
 
 const container = document.getElementById("root");
