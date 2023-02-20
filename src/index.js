@@ -4,6 +4,7 @@ import { createBrowserRouter , RouterProvider } from "react-router-dom";
 import App from "./App";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import RestaurantMenu from "./components/RestaurantMenu";
 import Shimmer from "./components/Shimmer";
 
 const About = lazy( () => import("./components/About"));
@@ -26,7 +27,10 @@ const router = createBrowserRouter([
             },{
                 path : "/contact",
                 element : <Contact />
-            }   
+            },{
+                path : "/restaurant/:restaurantId",
+                element : <RestaurantMenu />
+            }  
         ]
     },
 ]);
